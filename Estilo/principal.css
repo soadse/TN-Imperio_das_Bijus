@@ -12,3 +12,18 @@
     align-items: center;
     overflow: hidden;
 }
+#tela-inicial > img {
+    animation: apresentacao 3s linear;
+}
+@keyframes apresentacao {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100% {
+        width: 100%;
+        filter: drop-shadow(10px 10px 10px black);
+    }
+}
