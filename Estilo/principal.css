@@ -13,7 +13,7 @@
     overflow: hidden;
 }
 #tela-inicial > img {
-    animation: apresentacao 3s linear;
+    animation: apresentacao 3s linear forwards;
 }
 @keyframes apresentacao {
     0% {
