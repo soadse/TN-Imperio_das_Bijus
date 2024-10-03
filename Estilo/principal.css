@@ -11,9 +11,24 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    animation: fecha 3s forwards;
 }
+@keyframes fecha {
+    0% {
+
+    }
+    90% {
+        opacity: 1;
+    }
+    
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
 #tela-inicial > img {
-    animation: apresentacao 3s linear forwards;
+    animation: apresentacao 2s linear forwards;
 }
 @keyframes apresentacao {
     0% {
