@@ -20,11 +20,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 body {
     width: 100vw;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 #tela-inicial {
