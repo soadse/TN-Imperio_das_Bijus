@@ -4,7 +4,7 @@
     --corPrincipal: #EDAFBD;
 }
 
-/* @keyframes visivel {
+@keyframes visivel {
     0% {
         display: none;
     }
@@ -14,7 +14,7 @@
     100% {
         display: flex;
     }
-} */
+}
 
 
 * {
@@ -86,6 +86,7 @@ nav {
     flex-direction: column;
     background-color: var(--corPrincipal);
     box-shadow: 0px 0px 5px var(--corPrincipal);
+    animation: visivel 3s forwards;
 }
 nav > a > img {
     width: 30px;
@@ -121,4 +122,5 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: visivel 3s forwards;
 }
