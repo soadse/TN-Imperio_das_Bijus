@@ -72,7 +72,7 @@ body {
 header {
     width: 100%;
     height: 200px;
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 1000;
     background-image: url(../Imagens/banner.png);
@@ -80,7 +80,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     animation: visivel 3s forwards;
-    
 }
 nav {
     width: 100%;
