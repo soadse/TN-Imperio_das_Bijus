@@ -27,6 +27,7 @@
 body {
     width: 100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 #tela-inicial {
@@ -111,6 +112,13 @@ nav > .menu {
     align-items: center;
 }
 nav > .menuOpen {
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
