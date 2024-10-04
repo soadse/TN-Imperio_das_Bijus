@@ -86,14 +86,14 @@ nav {
     background-color: var(--corPrincipal);
 }
 nav > a > img {
-    width: 20px;
+    width: 30px;
 }
 nav > a {
     width: 100%;
     text-decoration: none;
     text-align: center;
     color: white;
-    padding: 10px;
+    padding: 5px;
 }
 nav > a:hover {
     text-align: center;
