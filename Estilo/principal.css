@@ -29,19 +29,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    animation: primeirosSegundos 3s forwards;
 }
-@keyframes primeirosSegundos {
-    0% {
-        overflow: hidden;
-    }
-    99.99% {
-        overflow: hidden;
-    }
-    100% {
-        overflow: scroll;
-    }
-}
+
 #tela-inicial {
     width: 100vw;
     height: 100vh;
