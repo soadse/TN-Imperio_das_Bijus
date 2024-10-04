@@ -7,18 +7,22 @@
     <link rel="shortcut icon" href="Icone/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="Estilo/retrato.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="Estilo/principal.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="Estilo/animacao.css">
     <title>TN - Império das Bijus</title>
 </head>
 <body>
+
     <div id="tela-inicial">
         <img src="Imagens/Tranparente-Letra_rosa.png" alt="">
     </div>
-    <header>    
+
+    <header id="banner">    
     </header>
 
     <nav>
         <a href="#" onclick="abreMenu()" class="menuOpen"><img src="Imagens/menu.png"></a>
         <a href="#" onclick="fechaMenu()" class="menu menuClose"><img src="Imagens/fecha_menu.png"></a>
+        <a href="#banner" class="menu inicio">Início</a>
         <a href="#anel" class="menu menu01">Anéis</a>
         <a href="#pulseira" class="menu menu02">Pulseiras</a>
         <a href="#colar" class="menu menu03">Colares</a>
@@ -27,21 +31,41 @@
 
     <main>
         <section id="anel">
-            <img src="Imagens/Produtos/anel.jpg" alt="">
+            <div>
+                <h1>ANÉIS</h1>
+                <p class="linhaH1"></p>
+            </div>
+            <iframe src="Paginas/aneis.html" frameborder="0"></iframe>
         </section>
 
         <section id="pulseira">
-            <img src="Imagens/Produtos/pulseira.jpeg" alt="">
+            <div>
+                <h1>PULSEIRAS</h1>
+                <p class="linhaH1"></p>
+            </div>
+            <iframe src="Paginas/pulseiras.html" frameborder="0"></iframe>
         </section>
 
         <section id="colar">
-            <img src="Imagens/Produtos/colar.jpg" alt="">
+            <div>
+                <h1>COLARES</h1>
+                <p class="linhaH1"></p>
+            </div>
+            <iframe src="Paginas/colares.html" frameborder="0"></iframe>
         </section>
 
         <section id="brinco">
-            <img src="Imagens/Produtos/brinco.jpg" alt="">
+            <div>
+                <h1>BRINCOS</h1>
+                <p class="linhaH1"></p>
+            </div>
+            <iframe src="Paginas/brincos.html" frameborder="0"></iframe>
         </section>
     </main>
+
+    <footer>
+        <p>TN - Império das Bijus</p>
+    </footer>
 
     <script src="Logica/principal.js"></script>
 </body>

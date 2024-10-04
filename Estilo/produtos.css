@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root {
+    --corPrincipal: #EDAFBD;
+    --cor02: #C90A96;
+    --fontePreco: Arial, Helvetica, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+section {
+    display: flex;
+}
+section > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 45%;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: hidden;
+}
+section > .seta {
+    border: none;
+}
+section > .seta > img {
+    width: 60px;
+}
+section > div > img {
+    width: 100%;
+}
+section p {
+    padding: 10px;
+    text-align: center;
+}
+section > div .preco {
+    font-family: var(--fontePreco);
+    font-weight: bold;
+    font-size: 30px;
+}
+section > div .avista {
+    font-family: var(--fontePreco);
+    color: var(--cor02);
+    font-weight: bold;
+}
+section > div > button {
+    background-color: var(--cor02);
+    width: 80%;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+section > div > button:hover {
+    background-color: var(--corPrincipal);
+    color: var(--cor02);
+    transition: all .5s;
+}
+section > div > button:not(:hover) {
+    transition: all .5s;
+}
