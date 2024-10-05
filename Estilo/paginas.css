@@ -105,7 +105,7 @@ section {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 420px;
+    height: 380px;
     border-radius: 5px;
     border: 1px solid var(--bordas);
     margin: 7px;

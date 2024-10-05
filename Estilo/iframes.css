@@ -3,6 +3,7 @@
 :root {
     --corPrincipal: #EDAFBD;
     --footerHover: #b6838f;
+    --bordas: lightgray;
     --fontePreco: Arial, Helvetica, sans-serif;
 }
 
@@ -57,8 +58,8 @@ section > div > button {
     background-color: white;
     width: 80%;
     height: 40px;
-    border: 1px solid var(--corPrincipal);
-    color: var(--corPrincipal);
+    border: 1px solid var(--bordas);
+    color: black;
     border-radius: 5px;
     margin-bottom: 5px;
 }

@@ -3,7 +3,7 @@
 :root {
     --corPrincipal: #EDAFBD;
     --footerHover: #b6838f;
-    --borda: #555452;
+    --bordas: lightgray;
 }
 
 * {
