@@ -107,7 +107,7 @@ section .avista {
     font-weight: bolder;
 }
 section > button {
-    background-color: var(--cor02);
+    background-color: white;
     width: 80%;
     height: 40px;
     border: 1px solid var(--corPrincipal);
@@ -117,7 +117,7 @@ section > button {
 }
 section > button:hover {
     background-color: var(--corPrincipal);
-    color: var(--cor02);
+    color: white;
     transition: all .5s;
 }
 section > button:not(:hover) {
