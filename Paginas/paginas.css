@@ -78,7 +78,7 @@ section {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    height: 350px;
+    height: 370px;
     background-color: #edafbd44;
     border-radius: 5px;
     border: 1px solid #EDAFBD;
@@ -108,7 +108,7 @@ section .avista {
 section > button {
     background-color: var(--cor02);
     width: 80%;
-    height: 40px;
+    height: 50px;
     border: none;
     color: white;
     border-radius: 5px;
