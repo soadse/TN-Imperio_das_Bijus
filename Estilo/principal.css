@@ -9,6 +9,7 @@
     margin: 0px;
     padding: 0px;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -104,9 +105,9 @@ main > section > iframe {
 }
 main > #bannerTransicao {
     width: 100%;
-    height: 110px;
+    height: 115px;
     animation: banner 15s infinite;
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     margin-top: 0px;
