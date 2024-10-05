@@ -2,7 +2,7 @@
 
 :root {
     --corPrincipal: #EDAFBD;
-    --cor02: #C90A96;
+    --cor02: white;
     --fontePreco: Arial, Helvetica, sans-serif;
 }
 
@@ -51,17 +51,17 @@ section > div .preco {
 }
 section > div .avista {
     font-family: var(--fontePreco);
-    color: var(--cor02);
-    font-weight: bold;
+    font-weight: bolder;
 }
 section > div > button {
     background-color: var(--cor02);
     width: 80%;
     height: 40px;
-    border: none;
-    color: white;
+    border: 1px solid var(--corPrincipal);
+    color: var(--corPrincipal);
     border-radius: 5px;
     margin-bottom: 5px;
+
 }
 section > div > button:hover {
     background-color: var(--corPrincipal);

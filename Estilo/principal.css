@@ -110,7 +110,7 @@ footer {
     overflow: hidden;
 }
 footer:hover {
-    background-color: var(--cor02);
+    background-color: #b6838f;
 }
 footer > a > img {
     width: 150px;
