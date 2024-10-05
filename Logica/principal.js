@@ -5,6 +5,7 @@ let menu01 = window.document.querySelector('.menu01')
 let menu02 = window.document.querySelector('.menu02')
 let menu03 = window.document.querySelector('.menu03')
 let menu04 = window.document.querySelector('.menu04')
+let voltarMenu = window.document.querySelector('.voltarMenu')
 
 
 function abreMenu(){
@@ -15,6 +16,7 @@ function abreMenu(){
     menu02.style.display = 'flex'
     menu03.style.display = 'flex'
     menu04.style.display = 'flex'
+    voltarMenu.style.display = 'flex'
 }
 function fechaMenu(){
     menuOpen.style.display = 'flex'
@@ -24,4 +26,5 @@ function fechaMenu(){
     menu02.style.display = 'none'
     menu03.style.display = 'none'
     menu04.style.display = 'none'
+    voltarMenu.style.display = 'none'
 }
