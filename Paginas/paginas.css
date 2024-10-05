@@ -71,6 +71,7 @@ main {
     width: 100%;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 section {
     display: flex;
@@ -121,4 +122,20 @@ section > button:hover {
 }
 section > button:not(:hover) {
     transition: all .5s;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: var(--corPrincipal);
+    height: 50px;
+    overflow: hidden;
+}
+footer:hover {
+    background-color: var(--cor02);
+}
+footer > a > img {
+    width: 150px;
 }
