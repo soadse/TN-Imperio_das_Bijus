@@ -77,6 +77,10 @@ nav > .menuOpen {
     align-items: center;
 }
 
+
+main {
+    width: 100%;
+}
 main > section {
     height: 450px;
     margin-top: 50px;
