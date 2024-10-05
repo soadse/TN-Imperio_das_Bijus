@@ -2,7 +2,8 @@
 
 :root {
     --corPrincipal: #EDAFBD;
-    --cor02: #C90A96;
+    --footerHover: #b6838f;
+    --fontePreco: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -103,20 +104,19 @@ section .preco {
 }
 section .avista {
     font-family: var(--fontePreco);
-    color: var(--cor02);
-    font-weight: bold;
+    font-weight: bolder;
 }
 section > button {
     background-color: var(--cor02);
     width: 80%;
-    height: 50px;
-    border: none;
-    color: white;
+    height: 40px;
+    border: 1px solid var(--corPrincipal);
+    color: var(--corPrincipal);
     border-radius: 5px;
     margin-bottom: 5px;
 }
 section > button:hover {
-    background-color: white;
+    background-color: var(--corPrincipal);
     color: var(--cor02);
     transition: all .5s;
 }
@@ -134,7 +134,7 @@ footer {
     overflow: hidden;
 }
 footer:hover {
-    background-color: var(--cor02);
+    background-color: var();
 }
 footer > a > img {
     width: 150px;

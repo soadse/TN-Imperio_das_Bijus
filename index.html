@@ -7,11 +7,12 @@
     <link rel="shortcut icon" href="Icone/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="Estilo/principal.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="Estilo/animacao.css">
+    <script src="../Logica/principal.js" defer></script>
     <title>TN - Império das Bijus</title>
 </head>
 <body>
 
-    <div id="tela-inicial">
+    <div id="tela-inicial" style="display: none;">
         <img src="Imagens/Transparente_Letra-branca.png" alt="">
     </div>
 
@@ -22,7 +23,7 @@
         <a href="#" onclick="abreMenu()" class="menuOpen"><img src="Imagens/menu.png"></a>
         <a href="#" onclick="fechaMenu()" class="menu menuClose"><img src="Imagens/fecha_menu.png"></a>
         <a href="#banner" class="menu inicio">Início</a>
-        <a href="Paginas/mainAneis.html" class="menu menu01">Anéis</a>
+        <a href="Paginas/mainAneis.html" target="_self" rel="next" class="menu menu01">Anéis</a>
         <a href="#pulseira" class="menu menu02">Pulseiras</a>
         <a href="#colar" class="menu menu03">Colares</a>
         <a href="#brinco" class="menu menu04">Brincos</a>
@@ -65,7 +66,5 @@
     <footer>
         <a href="https://www.instagram.com/" target="_blank" rel="external"><img src="Imagens/instagram.png" alt=""></a>
     </footer>
-
-    <script src="Logica/principal.js"></script>
 </body>
 </html>

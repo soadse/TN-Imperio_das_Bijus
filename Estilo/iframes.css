@@ -2,7 +2,7 @@
 
 :root {
     --corPrincipal: #EDAFBD;
-    --cor02: white;
+    --footerHover: #b6838f;
     --fontePreco: Arial, Helvetica, sans-serif;
 }
 
@@ -14,8 +14,9 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
+
 section {
     display: flex;
 }
@@ -54,7 +55,7 @@ section > div .avista {
     font-weight: bolder;
 }
 section > div > button {
-    background-color: var(--cor02);
+    background-color: white;
     width: 80%;
     height: 40px;
     border: 1px solid var(--corPrincipal);
@@ -65,7 +66,7 @@ section > div > button {
 }
 section > div > button:hover {
     background-color: var(--corPrincipal);
-    color: var(--cor02);
+    color: white;
     transition: all .5s;
 }
 section > div > button:not(:hover) {

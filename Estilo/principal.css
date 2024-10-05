@@ -2,7 +2,7 @@
 
 :root {
     --corPrincipal: #EDAFBD;
-    --cor02: #C90A96;
+    --footerHover: #b6838f;
 }
 
 
@@ -90,7 +90,7 @@ main > section > div {
     text-align: center;
 }
 main > section > div >.linhaH1 {
-    border-bottom: 1px solid var(--cor02);
+    border-bottom: 1px solid var(--corPrincipal);
     margin-top: 10px;
     width: 50px;
 }
@@ -110,7 +110,7 @@ footer {
     overflow: hidden;
 }
 footer:hover {
-    background-color: #b6838f;
+    background-color: var(--footerHover);
 }
 footer > a > img {
     width: 150px;
