@@ -28,3 +28,4 @@ function fechaMenu(){
     menu04.style.display = 'none'
     voltarMenu.style.display = 'none'
 }
+
